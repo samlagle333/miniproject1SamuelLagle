@@ -6,6 +6,11 @@ import yfinance as yf
 from datetime import datetime, timedelta
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+
+
+os.makedirs(name="charts", exist_ok=True)
+
 
 #Get today's date
 today = datetime.now()
