@@ -1,7 +1,6 @@
 # INF601 - Advanced Programming in Python
 # Samuel Lagle
 # Mini Project 1
-import pprint
 import yfinance as yf
 from datetime import datetime, timedelta
 import numpy as np
